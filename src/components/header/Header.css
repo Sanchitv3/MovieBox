@@ -1,0 +1,40 @@
+.header{
+    /* margin: 0 rem;
+    padding: .5rem 0; */
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: red;
+    border-radius: 40px; */
+}
+
+.headerLeft, .headerRight{
+    display: flex;
+    align-items: center;
+}
+
+a > span{
+    margin:0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: black;
+    text-decoration: underline solid white;
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+a > span:hover {
+    color: black;
+
+}
+
+.header__icon{
+    width:60px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.user__avatar{
+    font-size: 2rem;
+}
